@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: dinlight, Verdana, Tahoma, sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+
+@font-face {
+    font-family: dinlight;
+    src: url(../Font/DINPro\ Light.otf);
+}
+/* inicio de Home*/
+.navbar {
+    background-color: rgb(100, 3, 48) !important;
+}
+
+main {
+    height: 500px;
+    background-image: url(../Imagenes/alfajores.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+.call a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(139, 18, 75);
+    padding: 10px 30px;
+}
+
+.banner {
+    background-color: rgba(131, 128, 128, 0.494);
+    margin: 0;
+    padding: 20px;
+}
+.banner h2 {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: rgb(27, 27, 27);
+}
+.banner p {
+    margin: 20px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+}
+
+.nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+}
+.nosotros .nleft {
+    background-image: url(../Imagenes/alfajores-argentinos-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+}
+.nosotros .nright {
+    background-color: rgb(121, 87, 106);
+    background-image: linear-gradient(to bottom right, white, rgb(168, 129, 153));
+    padding: 20px;
+    width: 100%;
+}
+
+.nright h3 {
+    color: #333;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.nright p {
+    font-size: 18px;
+}
+/* inicio de Footer*/
+footer {
+    background-color: rgb(100, 3, 48);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 25px;
+    color: white;
+}
+
+footer .redes {
+    margin-top: 15px;
+    letter-spacing: 10px;
+}
+footer .redes a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
