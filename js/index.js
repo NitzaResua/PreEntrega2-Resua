@@ -72,7 +72,7 @@ function simularCompra() {
     if (total > 0) {
         let descuentoAplicado = total;
 
-    const medioDePago = prompt(`Seleccione el medio de pago:\ N1. Efectivo \ N2. Transferencia Bancaria (con descuento) o tarjeta de debito`);
+    const medioDePago = prompt(`Seleccione el medio de pago:\n 1. Efectivo\n 2. Transferencia Bancaria (con descuento) o tarjeta de debito`);
 
         switch (medioDePago) {
             case '1':
@@ -82,21 +82,21 @@ function simularCompra() {
                 const conDescuento = prompt(`¿Pagas con transferencia bancaria (tienes un 10% de descuento) ?:(si/no)`);
                 if (conDescuento.toLowerCase() === 'si') {
                     descuentoAplicado *= 0.9;
-                    console.log('Se aplica un descuento del 10% por pagar con transferencia bancaria.');
+                    console.log('Se aplica un descuento del 10% por pagar con transferencia bancaria, acontinuacion dejamos datos de la cuenta.');
                 } else {
                     console.log('¡Pagas con tarjeta de débito, te redireccionamos a la página de pago, gracias!.');
                 }
-                console.log(`Total a pagar: $${descuentoAplicado}`);
+                console.log(`Total a pagar es: $${descuentoAplicado}`);
                 break;
         }
     } else {
-        console.log('No se ha realizado ninguna compra.');
+        console.log('No se ha podido realizar la compra.');
     }
 }
 
 simularCompra();
 
-const GRACIAS = `¡GRACIAS POR SU COMPRA!`;
+const GRACIAS = `¡GRACIAS POR SU COMPRA, TE ESPERAMOS NUEVAMENTE!`;
 alert(GRACIAS);
 console.log(GRACIAS);
 
