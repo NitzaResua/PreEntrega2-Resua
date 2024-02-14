@@ -10,9 +10,9 @@ if (nombreDeUsuario === "Nombre" && (contrasena === "123456" || contrasena === "
 const productos = [
     { nombre: 'Alfajor de chocolate', precio: 1000 },
     { nombre: 'Alfajor de maicena', precio: 1000 },
-    { nombre: 'Tarta de Dulce de leche', precio: 1500 },
+    { nombre: 'Tarta de Dulce de leche', precio: 1250 },
     { nombre: 'Chocotorta ', precio: 1500 },
-    { nombre: ' Torta rogel ', precio: 1500 }
+    { nombre: 'Torta rogel ', precio: 1500 }
 ]
 
 function mostrarProductos() {
